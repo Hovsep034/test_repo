@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<helpproject xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="helpproject.xsd" version="2.0" isskin="false" isrepository="true">
+<helpproject xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="helpproject.xsd" version="2.2" isskin="false" isrepository="true">
   <config>
     <namespaces/>
     <styleclasses>
@@ -21,10 +21,11 @@
       <tablestyleclass name="Default">
         <style-set media="screen">width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;</style-set>
       </tablestyleclass>
+      <imagestyleclass name="Default"/>
     </styleclasses>
     <config-group name="project">
-      <config-value name="lcid" translate="true">en-us</config-value>
-      <config-value name="charset" translate="true">ANSI_CHARSET</config-value>
+      <config-value name="lcid">ru</config-value>
+      <config-value name="charset">ANSI_CHARSET</config-value>
       <config-value name="deffont">font-family:'MS Sans Serif'; font-size:8pt; color:#000000; </config-value>
       <config-value name="searchpath">.\</config-value>
       <config-value name="imageshortcuts_includebaggage">1</config-value>
@@ -38,6 +39,7 @@
       <config-value name="historyfilecount">10</config-value>
       <config-value name="historykeepdeletedfiles">0</config-value>
       <config-value name="vcsmanuallycheckout">0</config-value>
+      <config-value name="title">jkdfkj</config-value>
     </config-group>
     <variables/>
     <helpcontext-numbers/>
